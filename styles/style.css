@@ -1216,7 +1216,7 @@ footer.Copyright > p span{
 /* start cart-products */
 .cart-products{
     position: fixed;
-    max-width: 400px;
+    max-width: 500px;
     height: 100vh;
     top: 0;
     right: -400px;
