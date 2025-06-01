@@ -300,6 +300,7 @@ header .image img{
     }
     
 }
+/* v1.6 */
 @media (max-width: 490px){
     header {
         flex-direction: column;
