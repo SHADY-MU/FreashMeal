@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     transition: .5s;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -309,7 +310,7 @@ header .image img{
     header .container{
         justify-content: center;
         align-items: start;
-        margin-left: 30% ;
+        margin-left: 5%;
     }
     header .container h2{
         font-size: 20px;
@@ -344,6 +345,7 @@ section .title{
     font-weight: bolder;
     position: relative;
     padding: 0 20px;
+    overflow: none;
 }
 section .title::after{
     position: absolute;
@@ -566,10 +568,6 @@ section .title::after{
         max-width: 100%;
         gap: 10px;
     }
-    .top-products .slider > button{
-        display: none;
-    }
-    
  }
 /* Sec-top-products end */
 
