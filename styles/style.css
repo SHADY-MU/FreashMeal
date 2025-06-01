@@ -35,6 +35,7 @@ nav{
     top: 0;
     width: 100%;
     z-index: 10;
+    overflow-x: hidden ;
 }
 nav .top-nav{
     display: flex;
@@ -229,6 +230,7 @@ header .container{
     flex-direction: column;
     gap: 10px;
     width: max-content;
+    overflow-x: hidden ;
 }
 header .container > div{
         width: calc((100% -10) /2);
@@ -305,8 +307,9 @@ header .image img{
         align-items: center;
     }
     header .container{
-        justify-content: start;
+        justify-content: center;
         align-items: start;
+        margin-left: 30% ;
     }
     header .container h2{
         font-size: 20px;
@@ -329,6 +332,7 @@ section{
     overflow-x: hidden;
     padding: 2% 8%;
     min-height: 30vh;
+    overflow-x: hidden;
 }
 section .title{
     width: max-content;
@@ -350,6 +354,12 @@ section .title::after{
     right: 50%;
     transform: translateX(50%);
     background: url(../images/icons-js/hr.svg) center no-repeat ;
+}
+
+@media (max-width:680px){
+    section .title{
+        font-size: 30px;
+    }
 }
 /* Sec-top-products start */
 .top-products{
