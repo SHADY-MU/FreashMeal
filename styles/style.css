@@ -563,8 +563,11 @@ section .title::after{
 
 @media (max-width:768px){
     .top-products .slider .card .addtocart{
-        max-width: 40%;
+        max-width: 100%;
         gap: 10px;
+    }
+    .top-products .slider > button{
+        display: none;
     }
     
  }
