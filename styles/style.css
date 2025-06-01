@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     transition: .5s;
-    overflow-x: hidden;
 }
 
 @font-face {
@@ -311,7 +310,6 @@ header .image img{
     header .container{
         justify-content: center;
         align-items: start;
-        margin-left: 5%;
     }
     header .container h2{
         font-size: 20px;
@@ -351,7 +349,7 @@ section .title{
 section .title::after{
     position: absolute;
     content: "";
-    width: 150%;
+    width: 100%;
     height: 20px;
     bottom: -30px;
     right: 50%;
@@ -367,6 +365,7 @@ section .title::after{
 /* Sec-top-products start */
 .top-products{
     background: #F0F0F0;
+    overflow-x: hidden;
 }
 .top-products .slick-track{
     position: relative;
